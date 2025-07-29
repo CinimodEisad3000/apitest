@@ -1,0 +1,19 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: a python library
+  description: The place to be, for great artists
+  annotations:
+    github.com/project-slug: CinimodEisad3000/apitest
+  tags:
+    - python
+  links:
+    - url: https://admin.example-org.com
+      title: Admin Dashboard
+      icon: dashboard
+      type: admin-dashboard
+spec:
+  type: service
+  lifecycle: production
+  owner: idpadmin
+  system: project-x
